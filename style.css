@@ -6,28 +6,28 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/*nav maenu on the left as a unordered list*/
+
 .navbar{
     display:flex;
     align-items: center;
     padding:20px;
 }
-/*nav maenu on the right as a unordered list*/
+
 nav{
     flex: 1;
     text-align: right;
 }
-/*nav maenu on the right as a list but without bullet*/
+
 nav ul{
     display: inline-block;
     list-style-type: none;   
 }
-/*nav maenu on the right as a vertically list with 50px gapping with each with underline*/
+
 nav ul li{
     display: inline-block;
     margin-right: 50px;   
 }
-/*nav maenu on the right as a vertically list with 50px gapping with each without underline*/
+
 a{
     text-decoration: none;
     color: #555;
@@ -106,7 +106,6 @@ p{
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    /* animate both position and shadow for a smooth hover effect */
     transition: transform 0.5s, box-shadow 0.35s;
 }
 .col-4 img{
@@ -174,7 +173,7 @@ small{
 .testimonial .col-3 img{
     width:50px;
     margin-top: 20px;
-    border-radius: 50%;/*square images converted to round shape box*/
+    border-radius: 50%;
 }
 .testimonial .col-3:hover{
     transform: translateY(-10px);
@@ -468,13 +467,14 @@ th:last-child{
 .form-container{
     background: #fff;
     width:300px;
-    height: 400px;
+    height: 500px;
     position: relative;
     text-align: center;
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
     overflow: hidden;
+
 }
 
 .form-container span{
@@ -535,3 +535,13 @@ form a{
     transition: transform 1s;
 
 }
+
+/*-------------------- social login buttons --------------------*/
+.social-login{ margin-top:16px; text-align:center; }
+.social-text{ margin:0 0 8px; color:#666; font-size:14px; }
+.social-btn{ margin:4px 6px; padding:8px 14px; border:0; border-radius:4px; cursor:pointer; font-size:14px; }
+.social-btn i{ margin-right:8px; }
+.social-btn.google{ background:#db4a39; color:#fff; }
+.social-btn.fb{ background:#3b5998; color:#fff; }
+.social-btn.riot{ background:#111; color:#fff; }
+.social-btn:focus{ outline:none; }
