@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Valorant Merch Store | Ecommerce website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class ="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="products.html">Products</a></li>
+                         <li><a href="">About</a></li>
+                         <li><a href="">Contact</a></li>
+                         <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Gear Up Like a <br> Valorant Agent!</h1>
+                    <p>Show your love for Valorant with our exclusive collection of hoodies, T-shirts, figurines, and more. Each item is premium quality — thoughtfully designed<br> for fans, by fans to capture the energy and spirit of the game.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!------------------------------ featured categories------------------------------>
+        <div class="categories">
+            <h2 class="title" >Featured Products</h2>
+            <div class="small-container">
+                <div class="row">
+                <div class="col-3">
+                     <a href="products-details.html"><img src="images/yoru-phonecase.png"></a>
+                     <a href="products-details.html"><h4>Yoru Dimensional Drift Phone Case</h4></a>
+                     <a href="products.html" class="btn">View All Phone Cases &#8594;</a>
+                </div>
+                <div class="col-3">
+                    <a href="products-details.html"><img src="images/chamber-vest.webp"></a>
+                    <a href="products-details.html"><h4>Valorant Chamber Cosplay Costume</h4></a>
+                    <a href="products.html" class="btn">View All Valorant Costumes &#8594;</a>
+                </div>
+                <div class="col-3">
+                    <a href="products-details.html"><img src="images/keychain-set.jpg"></a>
+                    <a href="products-details.html"><h4>Gun & Melee Skin Toys / Keychains</h4></a>
+                    <a href="products.html" class="btn">View All Valorant Toys &#8594;</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!------------------------------ featured Products------------------------------>
+        <div class="small-container">
+            <h2 class="title" >New Agent Hoodies</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/jett-hoodie.jpg"></a>
+                        <a href="products-details.html"><h4>Jett Blade Storm Zipper Hoodie</h4></a>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/raze-hoodie.jpg"></a>
+                        <h4>Raze Showstopper Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/phoenix-hoodie.jpg"></a>
+                        <h4>Phoenix Run-it-back Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/sage-hoodie.jpg"></a>
+                        <h4>Sage Resurrection Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>  
+                </div>
+            
+            
+             <h2 class="title" >Latest Premium Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/wingman-onesie.webp"></a>
+                        <h4>Valorant Gekko's Wingman Onesie</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$99.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/phoenix-jacket.jpg"></a>
+                        <h4>Valorant Phoenix Blaze Jacket</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$224.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/yoru-jacket.webp"></a>
+                        <h4>Valorant Yoru's Stylish Jacket</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$249.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/chamber-vest.webp"></a>
+                        <h4>Valorant Chamber's Costume</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$199.00</p>
+                    </div>  
+                </div>
+            <!--new row for the latest product-->
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/cypher-mini.webp"></a>
+                        <h4>Valorant Cypher Mini Figure</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$25.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/kj-mini.webp"></a>
+                        <h4>Valorant Killjoy Mini Figure</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$25.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/tactibear.webp"></a>
+                        <h4>Valorant Tactibear Large Plush</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$30.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/wingman-plush.webp"></a>
+                        <h4>Valorant Wingman Spike Plush</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$30.00</p>
+                    </div>  
+                </div>
+            </div>
+        
+        <!--------------------------`   offer   --------------------------------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/gaming-chair.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Valorant Official Merch Store</p>
+                        <h1>VCT Masters Gaming Chair</h1>
+                        <small> Sit like a champion. Designed for competitive gamers, the VCT Masters Gaming Chair delivers maximum comfort, stability, and style inspired by professional Valorant tournaments. This is a limited-edition item available only while supplies last. </small><br>
+                        <a href="products.html" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!------------------------------Testimonial---------------------------------->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“This site is amazing for Valorant fans! The design looks clean and professional, and the merch feels premium, especially the jackets and gaming chair. Everything is easy to browse, and the items really capture the Valorant vibe. Definitely a must-visit shop for gamers.”</p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/reu.jpg">
+                        <h3>Reuchne Bermas</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“This store seriously goes hard. The Valorant merch looks clean, high-quality, and very well-designed, especially the limited items. The website feels smooth and modern, making it fun and easy to explore. Perfect for gamers who want both style and comfort.”</p>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/neo.jpg">
+                        <h3>Neomar Canete</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left" ></i>
+                        <p>“The merch selection is top-tier and totally fits the Valorant aesthetic. From the jackets to the gaming chair, everything looks premium and well thought out. The site runs smoothly and makes shopping feel exciting instead of boring.”</p>
+                        <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <img src="images/mark.png">
+                        <h3>Mark Dhave Repala</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------------------------------Brands------------------------------------>
+        <div class="brands">
+            <div class="small-container">
+                <h2 class="title" >Our trusted partners</h2>
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-rog.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-logitech.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-redbull.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-hyperx.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-riot.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Our goal is to provide high-quality Valorant-inspired merchandise that lets gamers express their passion both in-game and in real life.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Discount Codes</li>
+                       <li>Community Blog</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>TikTok</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Platform Technologies Activity 2026 - Kyle Dominic Yap - IT22S2 <br> This site is an independent, non-commercial personal project and is not affiliated with the official Valorant game.<br> All trademarks, logos, and content remain the property of their respective owners.</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
