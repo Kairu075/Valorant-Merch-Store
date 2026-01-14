@@ -12,7 +12,7 @@ The project demonstrates basic front-end web development concepts including HTML
 -Product listing with ratings
 -Product details page with quantity selection
 -Interactive buttons using JavaScript events
--Hover effects on partner logos
+-Hover effects on items and partner logos
 
 3. Author
 
@@ -23,3 +23,5 @@ Technological Institute of the Philippines
 
 This project is for educational purposes only.
 All Valorant-related names and designs are used as inspiration for academic requirements.
+
+VERCEL LINK: https://valorant-merch-store-lrqf.vercel.app/
