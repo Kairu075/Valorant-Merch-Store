@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Valorant Clothing - Valorant Merch Online Store</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <!--<div class ="header">-->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/valorant-merch-online-store-logo.png" width="125px"></a>
+                </div>
+               <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="index.html#categories">Products</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                         <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/shopping-cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+           
+        </div>
+    <!--</div>-->
+    
+        
+        <!------------------------------ Products------------------------------>
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Valorant Clothing</h2>
+                <select>
+                    <option>Default sorting</option>
+                    <option>Short by price</option>
+                    <option>Short by popularity</option>
+                    <option>Short by rating</option>
+                    <option>Short by sale</option>
+                </select>
+            </div>
+            
+            
+            <!--<h2 class="title" >Featured Products</h2>-->
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/yoru-jacket.webp"></a>
+                        <a href="products-details.html"><h4>Valorant Yoru's Stylish Jacket</h4></a>
+                        <div class="rating">
+                            
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$249.00</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/phoenix-jacket.jpg"></a>
+                        <h4>Valorant Phoenix Blaze Jacket</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$224.00</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/chamber-vest.webp"></a>
+                        <h4>Valorant Chamber's Costume</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$199.00</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/wingman-onesie.webp"></a>
+                        <h4>Valorant Wingman Onesie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$99.00</p>
+                    </div>  
+                </div>
+            
+            <!-------------- agent hoodies----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/jett-hoodie.jpg"></a>
+                        <a href="products-details.html"><h4>Jett Blade Storm Zipper Hoodie</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/raze-hoodie.jpg"></a>
+                        <h4>Raze Showstopper Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/phoenix-hoodie.jpg"></a>
+                        <h4>Phoenix Run-it-back Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/sage-hoodie.jpg"></a>
+                        <h4>Sage Resurrection Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+                 <!-------------- hoodies----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-windbreaker.webp"></a>
+                        <a href="products-details.html"><h4>Valorant Windbreaker Hoodie</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/hoodie-kj-frog.jpg"></a>
+                        <h4>Killjoy Froggie Zipper Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-bind-hoodie.webp"></a>
+                        <h4>Valorant Bind Full Zip Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/val-protocol-hoodie.webp"></a>
+                        <h4>Valorant Protocol Premium Hoodie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+                             <!-------------- hoodies----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/omen-chibi-hoodie.jpg"></a>
+                        <a href="products-details.html"><h4>Omen Chibi Pullover Hoodie</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/omen-longsleeve.webp"></a>
+                        <h4>Omen Paranoia Longsleeves</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/kj-longsleeve.webp"></a>
+                        <h4>Killjoy Nanoswarm Longsleeves</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/sage-longsleeve.webp"></a>
+                        <h4>Sage Resurrection Longsleeves</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+                             <!-------------- bottoms----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-joggers2.jpg"></a>
+                        <a href="products-details.html"><h4>Valorant Defy Joggers</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-shatter-joggers.webp"></a>
+                        <h4>Valorant Shatterprint Joggers</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-basketball-shorts.webp"></a>
+                        <h4>Valorant Basketball Shorts</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-shorts.jpg"></a>
+                        <h4>Valorant Protocol Shorts</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+                             <!-------------- tshirts----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/phoenix-shirt.webp"></a>
+                        <a href="products-details.html"><h4>Phoenix Protocal T-Shirt</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/reyna-shirt.webp"></a>
+                        <h4>Reyna Ace T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/sova-shirt.webp"></a>
+                        <h4>Sova Dart T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-heavy-shirt.webp"></a>
+                        <h4>Valorant Heavy DTL T-Shirt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+            <!-------------- hats----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/kj-beanie.webp"></a>
+                        <a href="products-details.html"><h4>Killjoy Lockdown Beanie</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-vct-cap.webp"></a>
+                        <h4>Valorant VCT Fragment Cap</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/wingman-beanie.webp"></a>
+                        <h4>Valorant Wingman Beanie</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/valorant-gray-cap.webp"></a>
+                        <h4>Valorant Distressed Cap</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+
+                <!--------------accessories----------------->
+            
+            <div class="row">
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/jett-necklace.webp"></a>
+                        <a href="products-details.html"><h4>Valorant Jett Blade Storm Necklace</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                             <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/sage-ring.webp"></a>
+                        <h4>Valorant Sage Resurrecting Ring</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$34.99</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/sage-earings.webp"></a>
+                        <h4>Valorant Sage Healing Orb Earrings</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$36.50</p>
+                    </div>
+                    <div class="col-4 reveal">
+                        <a href="products-details.html"><img src="images/chamber-chain.webp"></a>
+                        <h4>Valorant Chamber Tour de Force Chain</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$38.75</p>
+                    </div>
+                </div>
+            
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+            
+        </div>
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/valorant-store-logo-black.png">
+                    <p>Our goal is to provide high-quality Valorant-inspired merchandise that lets gamers express their passion both in-game and in real life.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Discount Codes</li>
+                       <li>Community Blog</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>TikTok</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Platform Technologies Activity 2026 - Kyle Dominic Yap - IT22S2 <br> This site is an independent, non-commercial personal project and is not affiliated with the official Valorant game.<br> All trademarks, logos, and content remain the property of their respective owners.</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }            
+            // Scroll Reveal Animation
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                    }
+                });
+            }, observerOptions);
+            
+            document.querySelectorAll('.reveal').forEach(element => {
+                observer.observe(element);
+            });        </script>
+    </body>
+</html>

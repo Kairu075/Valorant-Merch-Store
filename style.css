@@ -7,6 +7,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     display:flex;
     align-items: center;
@@ -548,14 +552,41 @@ form a{
 }
 
 /*-------------------- social login buttons --------------------*/
-.social-login{ margin-top:16px; text-align:center; }
-.social-text{ margin:0 0 8px; color:#666; font-size:14px; }
-.social-btn{ margin:4px 6px; padding:8px 14px; border:0; border-radius:4px; cursor:pointer; font-size:14px; }
-.social-btn i{ margin-right:8px; }
-.social-btn.google{ background:#db4a39; color:#fff; }
-.social-btn.fb{ background:#3b5998; color:#fff; }
-.social-btn.riot{ background:#111; color:#fff; }
-.social-btn:focus{ outline:none; }
+.social-login{
+    margin-top:16px;
+    text-align:center;
+ }
+.social-text{
+    margin:0 0 8px;
+    color:#666; 
+    font-size:14px;
+ }
+.social-btn{ 
+    margin:4px 6px; 
+    padding:8px 14px; 
+    border:0; 
+    border-radius:4px; 
+    cursor:pointer; 
+    font-size:14px; 
+}
+.social-btn i{
+    margin-right:8px; 
+}
+.social-btn.google{
+    background:#db4a39; 
+    color:#fff;
+ }
+.social-btn.fb{
+    background:#3b5998; 
+    color:#fff;
+ }
+.social-btn.riot{ 
+    background:#111; 
+    color:#fff;
+ }
+.social-btn:focus{
+    outline:none; 
+}
 
 /* ================= Featured Products Horizontal Carousel ================= */
 
@@ -609,6 +640,36 @@ form a{
 .carousel-btn.right{
     margin-left: 10px;
 }
+
+/* ================= Mobile Swipe Carousel ================= */
+@media only screen and (max-width: 768px){
+
+    .carousel{
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .carousel .col-3{
+        flex: 0 0 85%;
+        max-width: 85%;
+        scroll-snap-align: center;
+    }
+
+    /* Hide arrows on mobile */
+    .carousel-btn{
+        display: none;
+    }
+}
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+.carousel{
+    scrollbar-width: none;
+}
+
+
 
 /* ================= Hero Agent Glow Effect ================= */
 
